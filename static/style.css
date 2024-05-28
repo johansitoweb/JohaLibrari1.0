@@ -1,0 +1,144 @@
+/*tipo de letrassolopara titulos*/
+.nosifer-regular {
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /*losotros tipos*/
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.ouspes-fund{
+    padding-left:40px ;
+    padding-right: 40px;
+}
+
+  /*Fuentes de letras*/
+.freckle-face-regular {
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.hachi-maru-pop-regular {
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jacquard-12-regular {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.playball-regular {
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  /*Estilos de la pagina no de los componentes*/
+.cubre-todus{
+    border: solid blue 2px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+/*colores de la libreria*/
+.color-JohaLibrari-primary{
+    color:rgb(10, 177, 243);
+}
+
+.color-JohaLibrari-orange{
+    color:orange;
+}
+
+.color-JohaLibrari-red{
+    color:red;
+}
+
+.color-JohaLibrari-white{
+    color:white;
+}
+
+/*estilos de los botones*/
+.boton-JohaLibrari-primary{
+    border: none;
+    border-radius: 7px;
+    background-color:rgb(10, 177, 243);
+}
+
+.boton-JohaLibrari-white{
+    border: none;
+    border-radius: 7px;
+    background-color:rgb(254, 254, 254);
+}
+
+.boton-JohaLibrari-red{
+    border: none;
+    border-radius: 7px;
+    background-color:rgb(243, 10, 10);
+}
+
+.boton-JohaLibrari-orange{
+    border: none;
+    border-radius: 7px;
+    background-color:orange;
+}
+
+
+
+
+/*Estilos de la documentacion*/
+.documentacion{
+    background-color: rgb(19, 122, 218);
+    width: 100%;
+    height: auto;
+}
+
+/*Estilos de los input*/
+.color-rededor-JohaLibrari-red{
+    border-radius: 9px;
+    border: solid 4px red;
+}
+
+.color-rededor-JohaLibrari-white{
+    border-radius: 9px;
+    border: solid 4px white;
+}
+
+.color-rededor-JohaLibrari-red{
+    border-radius: 9px;
+    border: solid 4px orange;
+}
+
+.color-rededor-JohaLibrari-primary{
+    border-radius: 9px;
+    border: solid 4px rgb(11, 142, 142);
+}
+
+/*tamaños de los avatar*/
+.avatar-pequeño{
+width: 30px;
+height:30px;
+}
+
+.avatar-mediano{
+width: 50px;
+height:50px ;
+}
+
+.avatar-grande{
+    width: 60px;
+    height:60px ;
+}
+
+.avatar-rounded{
+    
+    border-radius: 50px;
+}

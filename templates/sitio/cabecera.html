@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>JohaLibrari</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Hachi+Maru+Pop&family=Jacquard+12&family=Jaro:opsz@6..72&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nosifer&family=Playball&family=Press+Start+2P&display=swap" rel="stylesheet">
+       <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+       <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+       <script src="{{ url_for('static', filename='js/snow.js') }}"></script>
+       <script src="{{url_for('static', filename='js/descarga.js')}}"></script>
+    </body>
+    </html>
+    </head>
+    <body style="background-color: rgb(3, 3, 45);">
+        <div class="row">
+            <div class="col-sm-9"><h2 class="text-primary">JohaLibrari</h2></div>
+            
+            
+            <div class="col-sm-3"><h6><a href=""></a><img src="data:image/png;base64,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"/></h6></div>
+        </div>
